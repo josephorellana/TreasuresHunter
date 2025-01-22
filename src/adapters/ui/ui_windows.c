@@ -85,6 +85,7 @@ UIAdapterInterface ui_windows = {
     .clean_screen = clean_screen,
     .end_screen   = end_screen,
     .get_char     = get_char,
+    .get_key_action = get_key_action,
     .init_screen  = init_screen,
     .print_text   = print_text
 };
