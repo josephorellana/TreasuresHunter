@@ -4,6 +4,7 @@
 typedef struct {
     void (*init_screen)(void);
     void (*print_text)(int y, int x, const char *text);
+    int  (*get_char)(void);
     void (*clean_screen)(void);
     void (*end_screen)(void);
 } UIAdapterInterface;
